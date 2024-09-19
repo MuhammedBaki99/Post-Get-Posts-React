@@ -1,0 +1,75 @@
+form {
+  width: 1110px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  input {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+  }
+}
+
+button {
+  background: darkblue;
+  color: white;
+  padding: 5px 10px;
+  border: 2px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.container {
+  width: 1110px;
+  background: lightcyan;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 40px;
+}
+
+.postList {
+  width: 1110px;
+  background: lightcyan;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 40px;
+
+
+  .postItem {
+    width: 400px;
+  }
+}
+
+.CommentList {
+  width: 1110px;
+  background: lightcyan;
+  margin: 40px auto;
+  display: grid;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 40px;
+
+  button {
+    width: 100px;
+  }
+
+  .commentItem {
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .commentForm{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+}
